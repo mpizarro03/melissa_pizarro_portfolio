@@ -1,0 +1,108 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.bottom-footer {
+  padding-top: 5rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    background-color: #ecb807;
+    border-color: #ecb807!important;
+    color: #fff!important;
+}
+
+.btn, .btn-primary, .btn-mycolor{
+  background-color: #ecb807;
+  border-color: #ecb807!important;
+  color: #fff!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #ecc636!important;
+  border-color: #ecc636!important;
+}
+
+.btn-primary {
+    background-color: #ecb807!important;
+    border-color: #ecb807!important;
+    color: #fff!important;
+}
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+.footer.footer .social-link {
+  background-color: #ecb807;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+.menu-toggle {
+  background: yellow;
+}
+.menu-toggle:hover {
+    background: red;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-primary {
+    background-color: #3c1234!important;
+}
