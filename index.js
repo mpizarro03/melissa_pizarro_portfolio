@@ -25,4 +25,13 @@ $(document).ready(function(){
       $('#ktgModal').modal('handleUpdate')
     })
 
+    //future project popup Modal
+    $('.future-action').on("click", function() {
+      console.log("xg click worked")
+
+      // $('#futureModal').modal('show')
+      // $('#futureModal').modal('handleUpdate')
+    })
+
+
 })

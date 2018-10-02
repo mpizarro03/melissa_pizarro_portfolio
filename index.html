@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Melissa Pizarro</title>
@@ -22,30 +22,35 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarsExample10">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">About<span class="sr-only">(what)</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="">
+    <div class="container">
+
+      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <!-- Header -->
     <header class="masthead d-flex">
@@ -60,15 +65,16 @@
     </header>
 
     <!-- About -->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section topo bg" id="about">
       <div class="container text-center">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 mx-auto about-me-heading">
             <h2>Let's make something amazing together!</h2>
-            <p class="lead mb-5">Former legal nerd turned Software Developer with a passion for logic and an eagerness to solve problems. Proven ability to work under pressure, while following through in a timely manner, and adapt to rapidly changing business environments. Highly organized. Demonstrated experience and a successful track record in analytics, reporting and corporate law. Actively looking for a position as a software developer with a mindful company who will appreciate my background and skillset.
-
-              When i'm not in front of a computer building and breaking, you can find me running through trees over distances that most humans should probably not run!</p>
-            <a class="btn btn-primary btn-my btn-xl js-scroll-trigger" href="#skills">Onward!</a>
+            <p class="lead mb-5">Former legal nerd turned Software Developer with a passion for logic and an eagerness to solve problems. Proven ability to work under pressure, while following through in a timely manner, and adapt to rapidly changing business environments. Highly organized. Demonstrated experience and a successful track record in analytics, reporting and corporate law.</p>
+            <p class="lead mb-5">
+            When i'm not in front of a computer building and breaking, you can find me on the trails training for my next ultra running adventure. Feel free to drop me a line and we can talk about code and trails. </p>
+            <p class="lead mb-5">Alright, let get to the good stuff...</p>
+            <a class="btn btn-primary btn-my btn-xl js-scroll-trigger" href="#skills">Skills!</a>
           </div>
         </div>
       </div>
@@ -78,8 +84,7 @@
     <section class="content-section bg-primary text-white text-center" id="skills">
       <div class="container">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Skills</h3>
-          <h2 class="mb-5">Skills</h2>
+          <h2 class="mb-5 text-secondary">Skills</h2>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -89,104 +94,116 @@
             <h4>
               <strong>Front End</strong>
             </h4>
-            <p class="text-faded text-secondary mb-0">Looks great on any screen size!</p>
+            <p class="text-faded text-secondary mb-0">HTML5  |  CSS</p>
+            <p class="text-faded text-secondary mb-0">JavaScript  |  ES6  |  JQuery</p>
+            <p class="text-faded text-secondary mb-0">Bootstrap  |  Materialize</p>
+            <p class="text-faded text-secondary mb-0">React.js   |   React Native</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
+              <i class="icon-settings"></i>
             </span>
             <h4>
               <strong>Back-End</strong>
             </h4>
-            <p class="text-faded text-secondary mb-0">Freshly redesigned for Bootstrap 4.</p>
+            <p class="text-faded text-secondary mb-0">RESTful APIs</p>
+            <p class="text-faded text-secondary mb-0">Express.js   |   Node.Js</p>
+            <p class="text-faded text-secondary mb-0">SQL  |  PostgreSQL</p>
+            <p class="text-faded text-secondary mb-0">Mocha  |   Chai</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-like"></i>
             </span>
             <h4>
-              <strong>Test Driven Development</strong>
+              <strong>Tools</strong>
             </h4>
-            <p class="text-faded mb-0">Millions of users
-              <i class="fas fa-heart"></i>
-              Start Bootstrap!</p>
+            <p class="text-faded text-secondary mb-0">WireFrames</p>
+            <p class="text-faded text-secondary mb-0">Git  |  GitHub</p>
+            <p class="text-faded text-secondary mb-0">Agile Methodology</p>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-mustache"></i>
             </span>
             <h4>
-              <strong>Question</strong>
+              <strong>Interpersonal</strong>
             </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
+            <p class="text-faded text-secondary mb-0">Problem Solving</p>
+            <p class="text-faded text-secondary mb-0">Conscious Listener</p>
+            <p class="text-faded text-secondary mb-0">Teamwork   |   Collaboration</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Callout -->
-    <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
-      </div>
-    </section>
-
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <section class="content-section
+    topo" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="text-secondary mb-5">Portfolio</h2>
+          <h5>(click images to see more)</h5>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 rb-action">
-            <a class="portfolio-item">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>The Race Blogger</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/BlogIndex.png" alt="">
+          <div class="col-lg-6 col-sm-6 rb-action">
+            <a class="portfolio-item portfolio-box">
+              <div class="caption overlay">
+                <div class="caption-content">
+                  <h2 class="hover-text">The Race Blogger</h2>
+                  <p class="mb-0">An athlete, father & electrician by trade ... follow along his journey to push his limits. </p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/RB_main1.jpg" alt="">
             </a>
             <!-- The Race Blogger modal -->
-            <div class="modal fade" id="rbModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal fade race-blogger" id="rbModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
+                <div class="modal-content projects">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">The Race Blogger</h5>
+                    <h5 class="modal-title modal-title">THE RACE BLOGGER</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
+                    <div class="modal-body">
+                      <img class="mobile-screen-shot-rb" src="./img/RB_mobile.png" alt="screen_shot_mobile">
+                      <div class="links-group">
+                        <a href="http://theraceblogger43.surge.sh/index.html" target="_blank" class="modal-link project-link"><strong>Live Site</strong></a>
+                        <a href="https://github.com/mpizarro03/q1FinalProject" target="_blank" class="modal-link project-link-second"><strong>GitHub Repo</strong></a>
+                      </div>
+                      <p>
+                        <strong>Technologies:</strong> HTML5, CSS, JavaScript, jQuery, Materialize, Wordpress API, Local Storage, Mocha & Chai.
+                        <br><br>I partnered with Chuck Schultz, an ultra triathlete athlete in Boulder, CO. His mission is to share his personal experience as he trains and takes on difficult races. With only a week to implement, I gathered requirements and created a blog with an ecommerce option to sell his book.
+                        <br><br> This project allowed me to harness my design skills and build a beautiful, responsive website that highlights the essense of my client.
+                      </p>
+                      <img class="screen-shot" src="./img/RB_landing.png" alt="screen_shot_1">
+                      <p class="pic-sub-title">Landing Page</p>
+                      <img class="screen-shot" src="./img/RB_api.png" alt="screen_shot_2">
+                      <p class="pic-sub-title">API Call to original Blog</p>
+                      <img class="screen-shot" src="./img/RB_cart.png" alt="screen_shot_3">
+                      <p class="pic-sub-title">Adding to Cart & Checking Out</p>
+                    </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 xg-action">
-            <a class="portfolio-item">
-              <span class="caption">
+          <div class="col-lg-6 col-sm-6 xg-action">
+            <a class="portfolio-item portfolio-box">
+              <span class="caption overlay">
                 <span class="caption-content">
-                  <h2>Xperience Garage</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                  <h2 class="hover-text">Xperience Garage</h2>
+                  <p class="mb-0">More than a customer experience consultancy... </p>
                 </span>
+
               </span>
-              <img class="img-fluid" src="img/Logo.png" alt="">
+              <img class="img-fluid" src="img/XG_main.jpg" alt="">
             </a>
             <!-- Xperience Garage modal -->
             <div class="modal fade" id="xgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
+                <div class="modal-content projects">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Xperience Garage</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -194,32 +211,99 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    ...
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <img class="mobile-screen-shot-xg" src="./img/xg_mobile.png" alt="screen_shot_mobile">
+                    <div class="links-group-second">
+                      <a href="http://xgarage.herokuapp.com/" target="_blank" class="modal-link project-link"><strong>Live Site</strong></a>
+                      <a href="https://github.com/mpizarro03/q2_project" target="_blank" class="modal-link project-link-second"><strong>GitHub Repo</strong></a>
+                    </div>
+                    <p>
+                      <strong>Technologies:</strong> HTML5, CSS, JavaScript, jQuery, Materialize, Node.js, Express.js, PostgreSQL, Bcrypt, Mocha & Chai.
+                      <br><br> My collegue <a href="https://www.tna.digital/" target="_blank"><strong>Aimee Zawacki</strong></a> and I partnered with a local client in Denver, CO called Xperience Garage ("XG").  With only a week to implement, we gathered requirements and created an intake form to collect data related to XG's project and a front end database solution for team members to filter through the collected data.
+                      <br><br> This project allowed me to collaborate in a team setting and work bring a client's idea to life.
+                    </p>
+                    <img class="screen-shot" src="./img/xg_survey.png" alt="screen_shot_1">
+                    <p class="pic-sub-title">Bottom of Survey</p>
+                    <img class="screen-shot" src="./img/xg_db.png" alt="screen_shot_2">
+                    <p class="pic-sub-title">Client's Database</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 ktg-action">
-            <a class="portfolio-item">
-              <span class="caption">
+
+          <div class="col-lg-6 col-sm-6 ktg-action">
+            <a class="portfolio-item portfolio-box">
+              <span class="caption overlay">
                 <span class="caption-content">
-                  <h2>Keep The Glow</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                  <h2 class="hover-text">Keep The Glow</h2>
+                  <p class="mb-0">React Native application that helps couples everywhere improve their relationship.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+              <img class="img-fluid" src="img/ktg_main.jpg" alt="">
             </a>
             <!-- Keep The Glow modal -->
             <div class="modal fade" id="ktgModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
+                <div class="modal-content projects">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Keep The Glow</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="mobile-screen-shot-ktg" src="./img/ktg_feelings.png" alt="screen_shot_mobile">
+                    <div class="links-group-ktg">
+                      <a href="https://github.com/aimeeroxanne/keeptheglow" target="_blank" class="modal-link project-link-ktg"><strong>GitHub Front End Repo</strong></a>
+                      <a href="https://github.com/aimeeroxanne/keep-the-glow-backend" target="_blank" class="modal-link project-link-second"><strong>GitHub Back End Repo</strong></a>
+                    </div>
+                    <div class="links-group-second">
+                      <a href="https://github.com/aimeeroxanne/keep-the-glow-backend" target="_blank" class="modal-link project-link-third"><strong>Capstone Live Demo</strong></a>
+                    </div>
+                    <p>
+                      <strong>Technologies:</strong> Javascript, React Native, Xcode, FireBase for authentication, Flexbox, Css, Node, Express, and PostgreSQL.
+                      <br><br> My collegue <a href="https://www.tna.digital/" target="_blank"><strong>Aimee Zawacki</strong></a>and I partnered with Dr. Wyatt Fisher, a marriage and couples counselor Boulder. Dr. Fisher noticed that there are a lot of apps available to help you find a partner but there are close to none available to help commited stay together.  Dr. Fisher developed an exervise to help couples better understand one another and meet eachother's need.  We developed a React Native application for iOS to help couples everywhere use Dr. Fisher's exercise to imporve their relationship.
+                    </p>
+                    <div class="two-screen-shots">
+                      <img class="screen-shot-ktg-left" src="./img/ktg_signup.png" alt="screen_shot_1">
+                      <img class="screen-shot-ktg-right" src="./img/ktg_login.png" alt="screen_shot_2">
+                      <p class="two-pic-sub-title-left">Signup Page</p>
+                      <p class="two-pic-sub-title-right">Login Page</p>
+                    </div>
+                    <div class="two-screen-shots-progress">
+                      <img class="screen-shot-ktg-left" src="./img/ktg_progress_pos.png" alt="screen_shot_1">
+                      <img class="screen-shot-ktg-right-progress" src="./img/ktg_progress_neg.png" alt="screen_shot_2">
+                      <p class="two-pic-sub-title-left">Progress Page: Gives</p>
+                      <p class="two-pic-sub-title-right">Progress Page: Takes</p>
+                    </div>
+                    <div class="two-screen-shots-account">
+                      <img class="screen-shot-ktg-left" src="./img/ktg_delete_account.png" alt="screen_shot_1">
+                      <img class="screen-shot-ktg-right-account" src="./img/ktg_remove_partner.png" alt="screen_shot_2">
+                      <p class="two-pic-sub-title-left">Delete Account</p>
+                      <p class="two-pic-sub-title-right">Remove Partner</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Future projects -->
+          <div class="col-lg-6 col-sm-6">
+            <a class="portfolio-item portfolio-box" href="#about">
+              <span class="caption overlay">
+                <span class="caption-content">
+                  <h2 class="hover-text">More Projects coming soon...</h2>
+                  <p class="mb-0"></p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/light.png" alt="">
+            </a>
+            <!-- Future project modal -->
+            <div class="modal fade" id="futureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Future Projects</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -235,40 +319,29 @@
               </div>
             </div>
           </div>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div>
+         </div>
         </div>
       </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white" id="resume">
+    <!-- Resume -->
+    <section class="content-section-resume bg-primary text-white " id="resume">
       <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="./Melissa_Pizarro_9_18.pdf" download="Melissa_Pizarro_9_18" target="_blank" class="btn btn-xl btn-light mr-4">Download</a>
+        <h2 class="resume-heading">Take a gander at my resume...<br>  if you like what you see, shoot me an email.</h2>
+        <a href="./Melissa_Pizarro_9_18.pdf" download="Melissa_Pizarro_9_18" target="_blank" class="btn btn-primary btn-my btn-xl js-scroll-trigger">Download</a>
       </div>
     </section>
 
 
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer text-center topo">
       <div class="container">
         <div class="content-section-heading text-center">
           <h2 class="text-secondary mb-5 id="contact"">Let's get in touch!</h2>
         </div>
-        <ul class="list-inline mb-10">
+        <ul class="list-inline mb-8">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="mpizarro03@gmail.com" target="_blank">
+            <a class="social-link rounded-circle text-white" href="mailto:mpizarro03@gmail.com" target="_blank">
               <i class="icon-social-google"></i>
             </a>
           </li>
@@ -289,7 +362,7 @@
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-      <i class="fas fa-angle-up"></i>
+      <i class="icon-arrow-up"></i>
     </a>
 
     <!-- Bootstrap core JavaScript -->
