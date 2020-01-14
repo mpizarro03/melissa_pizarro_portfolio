@@ -29,6 +29,12 @@ footer.footer {
   padding-top: 3rem;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
 .btn:not(:disabled):not(.disabled) {
     /* background-color: #ecb807; */
     /* border-color: rgba(153,153,156,1)!important; */
@@ -325,6 +331,7 @@ a:active, a:focus, a:hover {
     -webkit-filter: drop-shadow(5px 5px 5px #222 );
     filter: drop-shadow(5px 5px 5px #222);
 }
+/* .screen-recordings {} */
 .screen-shot-ktg-left {
   float: left;
   padding-left: 3%;
